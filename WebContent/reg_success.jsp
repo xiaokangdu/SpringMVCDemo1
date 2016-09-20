@@ -19,11 +19,11 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	<link rel="stylesheet" type="text/css" href="styles.css">
 	-->
   </head>
-  	<h3>注册成功</h3><br/>
+  	<h3 style="color:#00FF00">注册成功</h3>
   	<hr>
-  	${requestScope.user.id}<br/>
-  	${requestScope.user.uname}<br/>
-  	${requestScope.user.pwd}<br/>
+  	ID：${requestScope.user.id}<br/>
+  	姓名：${requestScope.user.uname}<br/>
+  	密码：${requestScope.user.pwd}<br/>
   <body>
 		
   </body>
